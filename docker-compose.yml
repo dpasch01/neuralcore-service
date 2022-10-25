@@ -1,0 +1,38 @@
+version: "3"
+
+services:
+  coref_1:
+    image: coref:latest
+    environment:
+      - HTTP_PROXY
+      - HTTPS_PROXY
+    ports:
+      - "8150:8150"
+  coref_2:
+    image: coref:latest
+    environment:
+      - HTTP_PROXY
+      - HTTPS_PROXY
+    ports:
+      - "8151:8150"
+  coref_3:
+    image: coref:latest
+    environment:
+      - HTTP_PROXY
+      - HTTPS_PROXY
+    ports:
+      - "8152:8150"
+  coref_4:
+    image: coref:latest
+    environment:
+      - HTTP_PROXY
+      - HTTPS_PROXY
+    ports:
+      - "8153:8150"
+  coref_5:
+    image: coref:latest
+    environment:
+      - HTTP_PROXY
+      - HTTPS_PROXY
+    ports:
+      - "8154:8150"
